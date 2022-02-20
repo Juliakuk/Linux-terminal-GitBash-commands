@@ -34,7 +34,7 @@
 15. Найти файл по имени  
 > find . -name qa_2.txt  
 16. Просмотреть содержимое в реальном времени  
-> tail -f qa_1.txt  
+> tail -f qa_1.txt 
 17. Вывести несколько первых строк из текстового файла  
 > head -n 2 qa_1.txt  
 > выведет первые 2 строчки из указанного файла, по умолчанию выводит первые 10 строк   
@@ -51,7 +51,22 @@
 > Шаг 1 - curl "http://162.55.220.72:5005/terminal-hw-request"  
 > Шаг 2 - curl "http://162.55.220.72:5005/get_method?name=Julia&age=38"  
 2. Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13  
-> Файл myscript.sh находится в ветке main данного репозитория.  
+- создать файл myscript.sh  
+> #1/bin/bash  
+> cd qaz_1
+> mkdir qaz_2 qaz_3 qaz_4  
+> сd qaz_2  
+> touch qa_1.txt qa_2.txt qa_3.txt qa1.json qa2.json  
+> mkdir f1 f2 f3  
+> ls -la  
+> mv qaz_2/{qa_1.txt,qa1.json} qaz_3/  
+- сделать файл исполняемым  
+> chmod +x ./myscript.sh  
+- запустить файл  
+> ./myscript.sh  
+  
+     
+
    
 
   
