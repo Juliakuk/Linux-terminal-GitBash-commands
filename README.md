@@ -53,13 +53,13 @@
 2. Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13  
 - создать файл myscript.sh  
 > #1/bin/bash  
-> cd qaz_1
+> cd qaz_1  
 > mkdir qaz_2 qaz_3 qaz_4  
 > сd qaz_2  
 > touch qa_1.txt qa_2.txt qa_3.txt qa1.json qa2.json  
 > mkdir f1 f2 f3  
 > ls -la  
-> mv qaz_2/{qa_1.txt,qa1.json} qaz_3/  
+> mv qaz_1.{qa_1.txt,qa1.json} ../qaz_3  
 - сделать файл исполняемым  
 > chmod +x ./myscript.sh  
 - запустить файл  
