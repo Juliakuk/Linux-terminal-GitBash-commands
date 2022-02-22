@@ -59,7 +59,7 @@
 > touch qa_1.txt qa_2.txt qa_3.txt qa1.json qa2.json  
 > mkdir f1 f2 f3  
 > ls -la  
-> mv qaz_1.{qa_1.txt,qa1.json} ../qaz_3  
+> mv qa_1.txt,qa1.json ../qaz_3  
 - сделать файл исполняемым  
 > chmod +x ./myscript.sh  
 - запустить файл  
